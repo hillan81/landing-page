@@ -1,0 +1,370 @@
+/* DEFAULT CSS BEGIN */
+* {
+    margin: 0;
+    padding: 0;
+    }
+      
+    html,
+    body {
+    width: 100%;
+    height: 100%;
+      
+    font-family: Righteous, sans-serif;
+    }
+
+    h1 {
+        font-size: 50pt;
+        color: black;
+    }
+    
+    
+    h2 {
+        font-size: 24pt;
+        color: black;
+    }
+    
+    strong {
+        font-size: 30pt;
+    }
+    
+    a {
+        font-size: 12pt;
+        text-decoration: none;
+        color: black;
+    }
+    
+    div.container {
+        padding: 25px 25px;
+    }
+    
+    p.small-text {
+        font-size: 10px;
+    }
+    
+    li {
+        list-style: none;
+        margin: 5px 15px;
+    }
+    /* DEFAULT CSS END */
+    
+    /* HEADER CSS BEGIN */
+    header#header {
+        position: fixed;
+        top: 0;
+        
+        width: 100vw;
+    
+        padding: 15px 10px 15px 10px;
+    
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header#header > nav#nav-bar {
+        padding-right: 50px;
+    }
+    
+    nav#nav-bar > a.nav-link {
+        margin: 0 15px;
+    }
+    
+    /* HEADER CSS END */
+    
+    /* SUBSCRIPTION area CSS BEGIN */
+    section#subscription-area {
+        height: 45vh;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        color: white;
+        background-color: #FED426;
+    
+        text-align: center;
+    }
+    
+    section#subscription-area >
+    div.container > 
+    div.subscription-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    div.subscription-wrapper >
+    form#form {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    
+        margin: 15px 0;
+    }
+    
+    form#form >
+    input, button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5pt 0;
+        padding: 7px 5px;
+        font-family: inherit;
+    }
+    
+    form#form >
+    button {
+        background-color: #FFB37A;
+        border:
+        1px 
+        solid
+        black;
+        text-transform: uppercase;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        section#subscription-area {
+          height: 50vh;
+        }
+    
+        section#subscription-area > 
+        div.container >
+        form#form {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width: 800px) {
+        section#subscription-area {
+          height: 60vh;
+        }
+    
+        section#subscription-area > 
+        div.container >
+        form#form {
+            width: 100%;
+        }
+    }
+    
+    /* SUBSCRIPTION area CSS END */
+    
+    /* FEATURE CSS BEGIN */
+    section#feature-area > 
+    div.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    div.feature {
+        display: flex;
+        width: 65%;
+    
+        margin: 15px 0;
+    }
+    
+    div.feature > img {
+        height: 50px;
+        margin-right: 25px;
+    }
+    
+    div.feature > div.feature-text {
+        margin-left: 25px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        div.feature {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width: 800px) {
+        div.feature {
+            width: 100%;
+        }
+    }
+    /* FEATURE CSS END */
+    
+    /* VIDEO CSS BEGIN */
+    section#video-area >
+    div.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    div.video-wrapper {
+        position: relative;
+        overflow: hidden;
+    
+        height: 50vh;
+        width: 50vw;
+    }
+    
+    iframe#video {
+        height: 100%;
+        width: 100%;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        div.video-wrapper {
+            width: 100%;
+            height: 50vh;
+        }
+    }
+    
+    @media only screen and (max-width: 800px) {
+        div.video-wrapper {
+            width: 100%;
+            height: 50vh;
+        }
+    }
+    
+    /* VIDEO CSS END */
+    
+    /* PRICING CSS BEGIN */
+    section#pricing-area >
+    div.container >
+    div.price-wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    div.price {
+        display: flex;
+        flex-direction: column;
+        width: 28%;
+        height: auto;
+    
+        border-style: solid;
+        border-radius: 5px;
+        margin: 0 15px;
+    }
+    
+    div.price >
+    div.price-title {
+        width: auto;
+        height: auto;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: #BFBFB2;
+    
+        padding: 15px 15px;
+    }
+    
+    div.price-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+        padding: 15px 15px;
+    }
+    
+    div.price-details >
+    strong.price {
+        margin: 15px 0;
+        text-align: center;
+    }
+    
+    div.price-details >
+    button {
+        text-transform: uppercase;
+        background-color: #0D64AD;
+    
+        font-family: inherit;
+        color: white;;
+        border: 
+            .5px
+            solid
+            black;
+        border-radius: 3px;    
+        width: 65%
+    }
+    
+    @media only screen and (max-width: 600px) {
+        div.price {
+            display: flex;
+            flex-direction: column;
+            width: 85%;
+    
+            margin: 15pt 0;
+            height: auto;
+    
+        }
+    }
+    
+    @media only screen and (max-width: 800px) {
+        div.price {
+            display: flex;
+            flex-direction: column;
+            width: 85%;
+    
+            margin: 15pt 0;
+            height: auto;
+    
+        }
+    }
+    
+    /* NOTES:
+    div.price-details' padding is extending around it's main container.
+    I don't understand why...
+    */
+    
+    /* PRICING CSS END */
+    
+    /* FOOTER CSS BEGIN */
+    footer {
+        background-color: rgb(206, 206, 206);
+    }
+    
+    footer >
+    div.container >
+    div.footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    
+    footer >
+    div.container >
+    div.footer-wrapper >
+    p.footer-copyright {
+        margin-top: 10px;
+    }
+    
+    ul.footer-links {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        footer >
+        div.container >
+        div.footer-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+    @media only screen and (max-width: 800px) {
+        footer >
+        div.container >
+        div.footer-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    /* FOOTER CSS END */

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9607ff1b71.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+    <header id="header">
+        <img src="images/juice.png"alt="Logo for header"  id="header-img"
+        height="80px" width="auto">
+        <nav id="nav-bar">
+            <a href="#feature-area" class="nav-link">Features</a>
+            <a href="#video-area" class="nav-link">How it Works</a>
+            <a href="#pricing-area" class="nav-link">Pricing</a>
+        </nav>
+        
+    </header>
+    <section id="subscription-area">
+        <div class="container">
+            <div class="subscription-wrapper">
+                <h1>Juiced</h1>
+                <h2>Drink Fresh and Healthy</h2>
+                <form action="#" id="form">
+                    <input id="email"  type="email"  placeholder="Enter your email address" required>
+                    <button id="submit"  type="submit"   value="SUBMIT"  formaction="#">get started</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="feature-area">
+        <div class="container">
+            <div class="feature">
+                <img  src="images/juicy.png" alt="juice icon">
+                <div class="feature-text">
+                    <h3 class="feature-header">Juices</h3>
+                    <p class="feature-details">
+                        20 different healthy and refreshing juice flavors to choose from.
+                    </p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="images/smoothie.png" alt="tissue-paper-roll">
+                <div class="feature-text">
+                    <h3 class="feature-header">Smoothies</h3>
+                    <p class="feature-details">
+                        15 delicious smoothie flavors that your tastebuds are bound to love.
+                    </p>
+                </div>
+            </div>
+            <div class="feature">
+                <img 
+                src="images/shot.png"
+                alt="tissue-paper-roll">
+                <div class="feature-text">
+                    <h3 class="feature-header">Health Shots</h3>
+                    <p class="feature-details">
+                        10 health boosting wellness shots to kickstart your day!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="video-area">
+        <div class="container">
+            <div class="video-wrapper">
+                <iframe id="video" src="https://www.youtube.com/embed/W1sdh6bdEBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+        </div>      
+    </section>
+    <section id="pricing-area">
+        <div class="container">
+            <div class="price-wrapper">
+                <div class="price">
+                    <div class="price-title">
+                        <h4>Juices</h4>
+                    </div>
+                    <div class="price-details">
+                        <strong class="price">&dollar;6.99 each</strong>
+                        <ul class="price-inclusions">
+                            <li>Orange Juice</li>
+                            <li>Carrot Juice</li>
+                            <li>Apple Juice </li>
+                        </ul>
+                        <button href="#">SELECT</button>
+                    </div>
+                </div>
+                <div class="price">
+                    <div class="price-title">
+                        <h4>Smoothies</h4>
+                    </div>
+                    <div class="price-details">
+                        <strong class="price">&dollar; 6.99 each</strong>
+                        <ul class="price-inclusions">
+                            <li>Mango Pineapple</li>
+                            <li>Strawberry Bananna</li>
+                            <li>The Green Machine</li>
+                        </ul>
+                        <button href="#">SELECT</button>
+                    </div>
+                </div>
+                <div class="price">
+                    <div class="price-title">
+                        <h4>Health Shots</h4>
+                    </div>
+                    <div class="price-details">
+                        <strong class="price">&dollar;3.99 each</strong>
+                        <ul class="price-inclusions">
+                            <li>Ginger Shot</li>
+                            <li>Turmeric Shot</li>
+                            <li>Wheatgrass Shot</li>
+                        </ul>
+                        <button href="#">SELECT</button>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <ul class="footer-links">
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Contact</li>
+                </ul>
+                <p class="small-text footer-copyright" >Copyright 2020, Juiced</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
